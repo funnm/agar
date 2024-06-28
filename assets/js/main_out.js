@@ -670,9 +670,6 @@
         escape: false,
     };
 
-    const eatSound = new Sound('./assets/sound/eat.mp3', 0.5, 10);
-    const pelletSound = new Sound('./assets/sound/pellet.mp3', 0.5, 10);
-
     fetch('skinList.txt').then(resp => resp.text()).then(data => {
         const skins = data.split(',').filter(name => name.length > 0);
         if (skins.length === 0) return;

@@ -12,18 +12,20 @@
     align-items: center;
 }
 #gallery-content {
-    background: #fff;
+    background: #000;
     max-height: 80%;
     max-width: 60%;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    color: #fff;
+    box-shadow: 0 0 15px #e0e0e0;
 }
 #gallery-header {
     font-size: 26px;
-    background: #555;
-    color: #fff;
+    background: #f8f8f8;
+    color: #000;
     text-align: center;
 }
 #gallery-body {
